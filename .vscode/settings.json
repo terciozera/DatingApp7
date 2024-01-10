@@ -1,3 +1,5 @@
 {
-    "dotnet.defaultSolution": "DatingApp.sln"
+    "dotnet.defaultSolution": "DatingApp.sln",
+    "editor.fontSize": 24,
+    "editor.accessibilityPageSize": 100
 }
