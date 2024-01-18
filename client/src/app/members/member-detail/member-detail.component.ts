@@ -27,10 +27,10 @@ export class MemberDetailComponent {
     var username = this.route.snapshot.paramMap.get('username');
     if (!username) return;
     this.memberService.getMember(username).subscribe({
-      next: member => (
+      next: member => {
         this.member = member,
         this.getImages()
-      )
+      }
     })
   }
 
